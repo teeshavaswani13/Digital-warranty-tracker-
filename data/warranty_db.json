@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "_id": "user_demo_01",
+      "email": "demo@warrantytracker.com",
+      "passwordHash": "$2b$10$NjTRqifyIwZtIVwW.5Sjs.E8Q90Q16TJG5KK2XwNbNV9Pl6drePyG",
+      "name": "Alex Morgan",
+      "createdAt": "2026-10-22T04:20:59.162Z"
+    },
+    {
+      "_id": "user_928cf8cc",
+      "email": "priya@example.com",
+      "passwordHash": "$2b$10$ANJP2pLpAyRVSa8lPcRuNea8f0E0NeVBfCuQim.cgbq6v64aDScYe",
+      "name": "Priya Sharma",
+      "createdAt": "2026-10-22T05:04:56.015Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod_airpods_today",
+      "userId": "user_demo_01",
+      "productName": "AirPods Pro (2nd Gen)",
+      "brandName": "Apple",
+      "category": "Audio",
+      "purchaseDate": "2025-10-22",
+      "warrantyDurationMonths": 12,
+      "warrantyExpiryDate": "2026-10-22",
+      "price": 24900,
+      "serialNumber": "H8G2901KL2",
+      "storeName": "Apple Store Mumbai",
+      "notes": "URGENT: Warranty expires TODAY! Contact Apple Support or claim replacement under warranty.",
+      "createdAt": "2026-10-22T05:00:00.000Z",
+      "updatedAt": "2026-10-22T05:00:00.000Z"
+    },
+    {
+      "_id": "prod_watch_soon",
+      "userId": "user_demo_01",
+      "productName": "Galaxy Watch 6 Classic",
+      "brandName": "Samsung",
+      "category": "Wearables & Smartwatches",
+      "purchaseDate": "2025-10-26",
+      "warrantyDurationMonths": 12,
+      "warrantyExpiryDate": "2026-10-26",
+      "price": 31999,
+      "serialNumber": "SM-R960NZK",
+      "storeName": "Samsung Experience Store",
+      "notes": "Battery health inspected. Warranty coverage ending in 4 days.",
+      "createdAt": "2026-10-22T04:50:00.000Z",
+      "updatedAt": "2026-10-22T04:50:00.000Z"
+    },
+    {
+      "_id": "prod_b89df1fc",
+      "userId": "user_demo_01",
+      "productName": "WH-1000XM5 Wireless Headphones",
+      "brandName": "Sony",
+      "category": "Audio",
+      "purchaseDate": "2025-11-01",
+      "warrantyDurationMonths": 12,
+      "warrantyExpiryDate": "2026-11-01",
+      "price": 29990,
+      "serialNumber": "S01-987214-H",
+      "storeName": "Croma Electronics",
+      "notes": "Left earcup hinge inspected. Covered for manufacturer hardware defects.",
+      "createdAt": "2026-10-21T22:20:59.163Z",
+      "updatedAt": "2026-10-21T22:20:59.163Z"
+    },
+    {
+      "_id": "prod_003a47e9",
+      "userId": "user_demo_01",
+      "productName": "iPad Air 11\" M2 256GB",
+      "brandName": "Apple",
+      "category": "Mobile & Gadgets",
+      "purchaseDate": "2025-11-13",
+      "warrantyDurationMonths": 12,
+      "warrantyExpiryDate": "2026-11-13",
+      "price": 59900,
+      "serialNumber": "DMPZK829A01",
+      "storeName": "Amazon India",
+      "notes": "Expiring soon. Inspect battery health before warranty cutoff.",
+      "createdAt": "2026-10-22T04:20:59.163Z",
+      "updatedAt": "2026-10-22T04:20:59.163Z"
+    },
+    {
+      "_id": "prod_2971ed81",
+      "userId": "user_demo_01",
+      "productName": "MacBook Pro 16\" M3 Pro",
+      "brandName": "Apple",
+      "category": "Computing",
+      "purchaseDate": "2026-06-22",
+      "warrantyDurationMonths": 12,
+      "warrantyExpiryDate": "2027-06-22",
+      "price": 249900,
+      "serialNumber": "C02GK915MD6R",
+      "storeName": "Apple Store Mumbai",
+      "notes": "Standard 1-year limited warranty. Keep receipt for AppleCare inquiries.",
+      "createdAt": "2026-10-21T20:20:59.163Z",
+      "updatedAt": "2026-10-21T20:20:59.163Z"
+    },
+    {
+      "_id": "prod_94a05ace",
+      "userId": "user_demo_01",
+      "productName": "V12 Detect Slim Cordless Vacuum",
+      "brandName": "Dyson",
+      "category": "Home Appliances",
+      "purchaseDate": "2026-08-22",
+      "warrantyDurationMonths": 24,
+      "warrantyExpiryDate": "2028-08-22",
+      "price": 54900,
+      "serialNumber": "DY-88219-IN",
+      "storeName": "Dyson Direct India",
+      "notes": "Includes 2-year Dyson genuine parts and motor warranty guarantee.",
+      "createdAt": "2026-10-22T02:20:59.163Z",
+      "updatedAt": "2026-10-22T02:20:59.163Z"
+    },
+    {
+      "_id": "prod_ba6c12b2",
+      "userId": "user_demo_01",
+      "productName": "65\" OLED 4K Smart TV S90C",
+      "brandName": "Samsung",
+      "category": "Home Appliances",
+      "purchaseDate": "2024-10-22",
+      "warrantyDurationMonths": 12,
+      "warrantyExpiryDate": "2025-10-22",
+      "price": 149990,
+      "serialNumber": "ZA48729501B",
+      "storeName": "Reliance Digital",
+      "notes": "Expired warranty. Consider third-party home appliance protection plan.",
+      "createdAt": "2026-10-22T00:20:59.163Z",
+      "updatedAt": "2026-10-22T00:20:59.163Z"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+/* Digital Warranty Tracker - Global Theme & Variables */
+
+:root {
+  --color-purple-primary: #7c3aed;
+  --color-purple-hover: #6d28d9;
+  --color-purple-light: #8b5cf6;
+  --color-purple-dark: #5b21b6;
+  --color-lavender-bg: #f8f7ff;
+  --color-lavender-surface: #f3f0ff;
+  --color-lavender-border: #e9d5ff;
+  --color-lavender-pill: #ede9fe;
+  --color-lavender-text: #6d28d9;
+  
+  --color-card-bg: #ffffff;
+  --color-text-main: #1e1b4b;
+  --color-text-muted: #64748b;
+  --color-text-subtle: #94a3b8;
+  
+  --color-status-active-bg: #ecfdf5;
+  --color-status-active-text: #065f46;
+  --color-status-active-border: #a7f3d0;
+  
+  --color-status-expiring-bg: #fffbeb;
+  --color-status-expiring-text: #92400e;
+  --color-status-expiring-border: #fde68a;
+  
+  --color-status-expired-bg: #fff1f2;
+  --color-status-expired-text: #9f1239;
+  --color-status-expired-border: #fecdd3;
+
+  --shadow-soft: 0 4px 20px -2px rgba(124, 58, 237, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 10px 25px -5px rgba(109, 40, 217, 0.07), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+  --shadow-hover: 0 20px 25px -5px rgba(109, 40, 217, 0.12), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--color-lavender-bg);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f0fb;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4b5fd;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}

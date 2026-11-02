@@ -1,0 +1,6 @@
+{
+  "name": "Digital Warranty Tracker",
+  "description": "A complete, modern web application to track, manage, and monitor product warranties and upcoming expirations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
